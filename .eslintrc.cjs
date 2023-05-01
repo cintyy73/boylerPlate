@@ -12,6 +12,7 @@ module.exports = {
   plugins: ["react-refresh", "simple-import-sort"],
   rules: {
     "react-refresh/only-export-components": "warn",
+    "react/prop-types": "off",
     "prettier/prettier": ["warn", { endOffLine: "auto" }],
     "simple-import-sort/imports": "warn",
     "simple-import-sort/exports": "warn",
